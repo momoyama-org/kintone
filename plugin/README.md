@@ -1,0 +1,2 @@
+#plugin
+サイボウズ様のkintone向けpluginのソース公開用レポジトリです。
