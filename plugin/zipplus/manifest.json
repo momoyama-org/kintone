@@ -1,0 +1,41 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "郵便番号検索プラグイン",
+        "en": "Zip to address conversion plug-in",
+        "zh": "邮政编码"
+    },
+    "description": {
+        "ja": "郵便番号から住所を検索するプラグインです",
+        "en": "This plugin convert zip code to address information.",
+        "zh": "邮政编码"
+    },
+    "icon": "images/zipplus.png",
+    "homepage_url": {
+        "ja": "http://www.momoyama.org/kintone/plugin/zipplus",
+        "en": "http://www.momoyama.org/kintone/plugin/zipplus",
+        "zh": "http://www.momoyama.org/kintone/plugin/zipplus"
+    },
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "js/zipplus.js"
+        ],
+        "css": [
+        ]
+    },
+    "config": {
+        "html": "html/config.html",
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "js/config.js"
+        ],
+        "css": [
+                "css/config.css",
+                "css/51-jp-default.css"
+        ],
+        "required_params": ["zip", "addr","btn","btn_text"]
+    }
+}
